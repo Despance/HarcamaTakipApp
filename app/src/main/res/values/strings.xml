@@ -2,8 +2,8 @@
     <string name="app_name">HarcamaTakipApp</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="delete">sil</string>
-    <string name="description">açıklama</string>
-    <string name="expenseValue">harcama</string>
+    <string name="description">Açıklama</string>
+    <string name="expenseValue">Harcama</string>
     <string name="bill">Fatura</string>
     <string name="rent">Kira</string>
     <string name="other">Diğer</string>
@@ -16,7 +16,7 @@
     <string name="add_expense">Harcama Ekle</string>
     <string name="next">İleri</string>
     <string name="screen1_desc">Artık karışıklığa son!</string>
-    <string name="screen1_title">Karşınızda harcama takip uygulaması</string>
+    <string name="screen1_title">Karşınızda Harcama Takip Uygulaması</string>
     <string name="hello">Merhaba</string>
     <string name="your_total">Harcamanız</string>
     <string name="add">Ekle</string>

@@ -86,12 +86,6 @@ class ExpenseRecyclerAdapter(var items: List<Expense>, private val viewModel: Ex
         }
 
 
-        holder.itemView.findViewById<CardView>(R.id.expenseCardView).setOnClickListener {
-            val action = MainFragmentDirections.actionMainFragmentToDetailFragment(currentExpenseItem.id!!,currentExpenseItem.description,currentExpenseItem.expenseValue,currentExpenseItem.currency,expenseIcon)
-
-            Navigation.findNavController(it).navigate(action)
-
-        }
 
 
         val lastValue = if(displayedValue>=10.0){
@@ -101,6 +95,17 @@ class ExpenseRecyclerAdapter(var items: List<Expense>, private val viewModel: Ex
         }
 
         holder.itemView.findViewById<TextView>(R.id.valueText).text = "$lastValue$sign"
+
+
+        holder.itemView.findViewById<CardView>(R.id.expenseCardView).setOnClickListener {
+            val action = MainFragmentDirections.actionMainFragmentToDetailFragment(currentExpenseItem.id!!,currentExpenseItem.description,"${DecimalFormat("#.##").format(displayedValue)} $sign",currentExpenseItem.currency,expenseIcon)
+
+            Navigation.findNavController(it).navigate(action)
+
+        }
+
+
+
 
     }
 

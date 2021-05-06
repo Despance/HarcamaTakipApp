@@ -63,7 +63,6 @@ class MainFragment : Fragment() {
         binding.recyclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.recyclerView.adapter= adapter
 
-        viewModel.selectedCurrency =1
 
 
         colorChange(viewModel.selectedCurrency)
@@ -205,6 +204,7 @@ class MainFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+        this.arguments?.clear();
     }
 
     private fun loadNameData(){
