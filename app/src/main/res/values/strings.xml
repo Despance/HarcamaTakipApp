@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">HarcamaTakipApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete">sil</string>
+    <string name="description">açıklama</string>
+    <string name="expenseValue">harcama</string>
+    <string name="bill">Fatura</string>
+    <string name="rent">Kira</string>
+    <string name="other">Diğer</string>
+    <string name="turkish_liras">Tl</string>
+    <string name="dollar">Dolar</string>
+    <string name="euro">Euro</string>
+    <string name="pound">Sterlin</string>
+    <string name="save">Kaydet</string>
+    <string name="icon">Icon</string>
+    <string name="add_expense">Harcama Ekle</string>
+    <string name="next">İleri</string>
+    <string name="screen1_desc">Artık karışıklığa son!</string>
+    <string name="screen1_title">Karşınızda harcama takip uygulaması</string>
+    <string name="hello">Merhaba</string>
+    <string name="your_total">Harcamanız</string>
+    <string name="add">Ekle</string>
+    <string name="change_name">İsim Değiştir</string>
+    <string name="enter_name">İsminizi giriniz</string>
+    <string name="men">Erkek</string>
+    <string name="women">Kadın</string>
+    <string name="none">Belirtmek istemiyorum</string>
+    <string name="screen2_desc">Harcamalarınızı katagorilendirerek daha kolay takip edin!</string>
+    <string name="screen2_title">Kolayca Katagorilendirir</string>
+    <string name="appName">Harcama Takip Uygulaması</string>
+    <string name="screen3_title">Farklı Para Birimleriyle Takip Et</string>
+    <string name="screen3_desc">Harcamalarınızı Tl Dolar Euro Sterlin para birimleriyle sürekli güncellenen kurla takip edin!</string>
+    <string name="finish">Bitir</string>
 </resources>
