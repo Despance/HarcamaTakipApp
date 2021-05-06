@@ -58,13 +58,14 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="@string/expenseValue"
-        android:inputType="number|numberDecimal"
+        android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/descriptionEditTextView">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:inputType="numberDecimal"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -151,4 +152,6 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/currencyRadioGroup" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
